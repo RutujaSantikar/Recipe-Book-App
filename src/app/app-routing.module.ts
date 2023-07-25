@@ -5,6 +5,7 @@ import { RecipeStartComponent } from './recipes/recipe-start/recipe-start.compon
 import { RecipesComponent } from './recipes/recipes/recipes.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component';
+import { AuthComponent } from './auth/auth.component';
 
 const routes: Routes = [
   {
@@ -24,7 +25,10 @@ const routes: Routes = [
   
   {
      path:'shopping-list', component:ShoppingListComponent
-   }
+  },
+  {
+    path:'auth', component:AuthComponent
+  }
 ];
 
 @NgModule({
